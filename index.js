@@ -1,7 +1,6 @@
 let now=new Date();
 let kn= new Date("2016-2-29");
 let ngay=Math.ceil((now-kn)/(60*60*24*1000));
-console.log(ngay);
 document.querySelector(".times").innerHTML=ngay +" days";
 
 

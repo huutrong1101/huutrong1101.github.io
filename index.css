@@ -306,7 +306,29 @@ header .logo p,header .logo span{
 
 
 /* RESPONSIVE */
+@media (max-width: 850px){
+    .memories .box p{
+        font-size: 1rem;
+    }
+}
 @media (max-width: 768px){
+    .memories .box p{
+        font-size: 1rem;
+    }
+    header .row .logo{
+        position: relative;
+        top: 0;
+        right: 2.5rem;
+    }
+    .home .content h3 {
+        font-size: 3rem;
+    }
+    .home .content p{
+        font-size: 2rem;
+    }
+    .about .item .content p{
+        font-size: 12px;
+    }
     #menu-bar{
         display: initial;
     }
@@ -320,8 +342,9 @@ header .logo p,header .logo span{
         left: 0;
         background: #333;
         border-top: .1rem solid rgba(255, 255, 255, 0.2);
-        padding: 1rem 2rem;
         clip-path: polygon(0 0,100% 0,100% 0, 0 0);
+        display: flex;
+        flex-direction: column;
     }
     header .nav a{
         display: block;
@@ -329,5 +352,9 @@ header .logo p,header .logo span{
         padding: 1.4rem;
         margin: 1.4rem 0;
         background: #222;
+    }
+    .footer h1 ,.footer .icons a{
+        font-weight: 200;
+        font-size: 1rem;
     }
 }
