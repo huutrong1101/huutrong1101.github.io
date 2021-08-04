@@ -69,6 +69,7 @@ section{
 
 
 /* HEADER  */
+
 .home .times p{
     text-transform: none;
 }
@@ -119,6 +120,7 @@ header .logo span{
 }
 header .logo p,header .logo span{
     font-size: 1.75rem;
+    font-family: var(--cursive-font);
 } 
 
 /* HOME  */
