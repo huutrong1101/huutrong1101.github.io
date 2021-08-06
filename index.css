@@ -204,6 +204,11 @@ header .logo p,header .logo span{
     border-radius: 10px;
     cursor: pointer;
 }
+.about .row .video{
+    width: 50%;
+    height: 50%;
+    margin-top: 3rem;
+}
 .about .item .content h3{
     font-size: 30px;
     text-transform: capitalize;
@@ -311,15 +316,42 @@ header .logo p,header .logo span{
     color: var(--main-color);
 }
 
+/* PAGE LOADING  */
+
+.loader-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100000;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.loader-container.fade-out{
+    top: -120%
+}
+
+
+
+
+
+
+
 
 
 /* RESPONSIVE */
 @media (max-width: 850px){
-    .memories .box p{
-        font-size: 1rem;
+    *{
+        font-size: 55%;
     }
 }
 @media (max-width: 768px){
+    *{
+        font-size: 50%;
+    }
     .memories .box p{
         font-size: 1rem;
     }
